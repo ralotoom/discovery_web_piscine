@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Template Injection Example</title>
+</head>
+<body>
+    <h1>Template Injection Example</h1>
+    <p>This is a vulnerable page that demonstrates template injection.</p>
+
+    <form action="/" method="post">
+        <label for="input">Enter your name:</label>
+        <input type="text" id="input" name="input">
+        <button type="submit">Submit</button>
+    </form>
+
+    <div>
+        {% if name %}
+            <p>Hello, {{ name }}!</p>
+        {% endif %}
+    </div>
+</body>
+</html>

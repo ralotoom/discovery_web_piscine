@@ -1,0 +1,14 @@
+time="2026-10-22T12:29:57+03:00" level=warning msg="/home/ralotoom/professional_training/module00/ex01/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+ Network ex01_default Removing 
+ Network ex01_default Removed 
+time="2026-10-22T12:29:57+03:00" level=warning msg="/home/ralotoom/professional_training/module00/ex01/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+ Image ex01-app Building 
+ Image ex01-app Built 
+ Network ex01_default Creating 
+ Network ex01_default Creating 
+ Network ex01_default Created 
+ Network ex01_default Created 
+ Container ex01-app-1 Creating 
+ Container ex01-app-1 Created 
+ Container ex01-app-1 Starting 
+ Container ex01-app-1 Started 

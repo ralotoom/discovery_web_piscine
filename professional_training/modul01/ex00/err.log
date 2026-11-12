@@ -1,0 +1,14 @@
+time="2026-10-25T14:14:11+03:00" level=warning msg="/home/ralotoom/professional_training/modul01/ex00/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+ Network ex00_default Removing 
+ Network ex00_default Removed 
+time="2026-10-25T14:14:11+03:00" level=warning msg="/home/ralotoom/professional_training/modul01/ex00/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+ Image ex00-template-injection-app Building 
+ Image ex00-template-injection-app Built 
+ Network ex00_default Creating 
+ Network ex00_default Creating 
+ Network ex00_default Created 
+ Network ex00_default Created 
+ Container ex00-template-injection-app-1 Creating 
+ Container ex00-template-injection-app-1 Created 
+ Container ex00-template-injection-app-1 Starting 
+ Container ex00-template-injection-app-1 Started 

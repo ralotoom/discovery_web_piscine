@@ -1,0 +1,9 @@
+version: "2"
+services:
+  web:
+    build: .
+    image: mine
+    ports:
+      - "0.0.0.0:8085:80"
+    environment:
+      - FLAG=42Born{To_C0d3_1s_n1c3_pl4ce_r1ght?}

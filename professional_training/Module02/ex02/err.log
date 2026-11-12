@@ -1,0 +1,16 @@
+time="2026-11-03T09:58:32+03:00" level=warning msg="/home/ralotoom/professional_training/Module02/ex02/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+ Network ex02_default Removing 
+ Network ex02_default Removed 
+time="2026-11-03T09:58:32+03:00" level=warning msg="/home/ralotoom/professional_training/Module02/ex02/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+ Image mine Pulling 
+ Image mine pull access denied for mine, repository does not exist or may require 'docker login' 
+ Image mine Building 
+ Image mine Built 
+ Network ex02_default Creating 
+ Network ex02_default Creating 
+ Network ex02_default Created 
+ Network ex02_default Created 
+ Container ex02-web-1 Creating 
+ Container ex02-web-1 Created 
+ Container ex02-web-1 Starting 
+ Container ex02-web-1 Started 

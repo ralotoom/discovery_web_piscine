@@ -1,0 +1,22 @@
+docker: 'docker stop' requires at least 1 argument
+
+Usage:  docker stop [OPTIONS] CONTAINER [CONTAINER...]
+
+See 'docker stop --help' for more information
+docker: 'docker rm' requires at least 1 argument
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...]
+
+See 'docker rm --help' for more information
+time="2026-10-27T10:08:29+03:00" level=warning msg="/home/ralotoom/professional_training/modul01/ex01/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+time="2026-10-27T10:08:29+03:00" level=warning msg="/home/ralotoom/professional_training/modul01/ex01/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+ Image ex01-xxe-app Building 
+ Image ex01-xxe-app Built 
+ Network ex01_default Creating 
+ Network ex01_default Creating 
+ Network ex01_default Created 
+ Network ex01_default Created 
+ Container ex01-xxe-app-1 Creating 
+ Container ex01-xxe-app-1 Created 
+ Container ex01-xxe-app-1 Starting 
+ Container ex01-xxe-app-1 Started 

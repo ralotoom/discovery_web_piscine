@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Deserialization RCE Challenge</title>
+</head>
+<body>
+    <h1>Vulnerable Flask App: Deserialization RCE Challenge</h1>
+    <form method="post">
+        <label for="data">Enter Serialized Data:</label><br>
+        <textarea name="data" rows="5" cols="40"></textarea><br>
+        <input type="submit" value="Submit">
+    </form>
+    {% if result %}
+    <h2>Result:</h2>
+    <pre>{{ result }}</pre>
+    {% endif %}
+</body>
+</html>
